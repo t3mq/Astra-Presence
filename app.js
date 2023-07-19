@@ -1,7 +1,7 @@
 const Discord = require('discord.js-selfbot-v13');
-const prompt = require('prompt-sync')();
 const c = require('gradient-string');
 const colors = require('colors');
+const q = require('readline-sync')
 
 const client = new Discord.Client({
     readyStatus: false,
@@ -16,7 +16,18 @@ const color = () => {
     }
 }
 
-let Token = prompt('Enter a token: ');
+const lang = (fr, en) => {
+    switch(config.lang) {
+        case "en":
+            return en;
+        case "fr":
+            return fr;
+        default: 
+            return en;
+    }
+}
+
+let Token = q.question('Enter a token: ');
 client.login(Token);
 
 client.on('ready', () => {
@@ -35,16 +46,17 @@ client.on('ready', () => {
                                           ███    ███                                             
     `))
     console.log(`                                           •----------•\n`.bold.black)
-
-    let Type = prompt('Enter a type (PLAYING, STREAMING, LISTENING, WATCHING, COMPETING) [Full Maj]: ');
-    let Name = prompt('Enter a name: ');
-    let Details = prompt('Enter a details: ');
-    let State = prompt('Enter a state: ');
     
-    let LargeImg = prompt('Enter a large image: ');
+    let Id = q.question(`${lang("Entrez un ID: ", "Enter an ID: ")}`)
+    let Type = q.question(`${lang("Enter a type (PLAYING, STREAMING, LISTENING, WATCHING, COMPETING) [Full Maj]: ", "Entrer un type (PLAYING, STREAMING, LISTENING, WATCHING, COMPETING) [Full Maj]: ")}`);
+    let Name = q.question(`${lang("Enter a name: ", "Entrer un nom: ")}`);
+    let Details = q.question(`${lang("Enter a details: ", "Entrer un details: ")}`);
+    let State = q.question(`${lang("Enter a state: ", "Entrer un state: ")}`);
+    
+    let LargeImg = q.question(`${lang("Enter a large image: ", "Entrer une large image: ")}`);
 
     const r = new Discord.RichPresence()
-        .setApplicationId("1123612385421312052")
+        .setApplicationId(Id)
         .setType(Type)
         .setName(Name)
         .setDetails(Details)
