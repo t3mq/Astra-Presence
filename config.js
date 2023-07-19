@@ -1,3 +1,4 @@
 module.exports = {
-    color: "default"
+    color: "default",
+    lang: "en"
 }
