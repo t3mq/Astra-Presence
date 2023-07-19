@@ -47,7 +47,7 @@ v1.1 ⋮ 07/19/23
 ![](https://i.imgur.com/cietFWo.png)
 ![](https://i.imgur.com/eYie0EO.png)
 ![](https://i.imgur.com/1rDsrOZ.png)
-![](https://i.imgur.com/gallery/Msu8cbl.png)
+![](https://i.imgur.com/Ok0NKvQ.png)
 
 ## <a id="terms"></a>💼 〢 Terms Of Usage
 - [x] Educational purpose only
