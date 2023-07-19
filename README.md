@@ -41,13 +41,13 @@ v1.1 ⋮ 07/19/23
 ```
 
 ## <a id="preview"></a> 📷・Previews
-![](https://imgur.com/gallery/od5OY1z)
-![](https://imgur.com/gallery/l0Ysw4c)
-![](https://imgur.com/gallery/UeX2id1)
-![](https://imgur.com/gallery/8iVz4o2)
-![](https://imgur.com/gallery/zL7kum2)
-![](https://imgur.com/gallery/lcif92I)
-![](https://imgur.com/gallery/Msu8cbl)
+![](https://i.imgur.com/gallery/od5OY1z.png)
+![](https://i.imgur.com/gallery/l0Ysw4c.png)
+![](https://i.imgur.com/gallery/UeX2id1.png)
+![](https://i.imgur.com/gallery/8iVz4o2.png)
+![](https://i.imgur.com/gallery/zL7kum2.png)
+![](https://i.imgur.com/gallery/lcif92I.png)
+![](https://i.imgur.com/gallery/Msu8cbl.png)
 
 ## <a id="terms"></a>💼 〢 Terms Of Usage
 - [x] Educational purpose only
