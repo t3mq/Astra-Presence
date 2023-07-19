@@ -17,7 +17,7 @@
 
 ## <a id="setup"></a> 🔧・Setting Up
 1. Install [Node.Js](https://nodejs.org/en)
-2. Install [Astra-Presence](https://github.com/ZqxDev/Astra-Presence/releases/tag/V1)
+2. Install [Astra-Presence](https://github.com/ZqxDev/Astra-Presence/releases/tag/V1.1)
 3. Complete the configuration file
 4. Start the file [Start.bat]()
 5. Custom your presence for take the bot id go on [DiscordDev](https://discord.com/developers/applications) just take the id of a bot of yours
